@@ -1,0 +1,1 @@
+NICCTF{modbus_data_extraction_is_fun__________} :55
