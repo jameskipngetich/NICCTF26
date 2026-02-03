@@ -1,0 +1,3 @@
+Enter license key: Correct!
+
+NICCTF26{Z25pa19lc3JldmVyX2Npbg==}
