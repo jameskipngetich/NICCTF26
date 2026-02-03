@@ -2,14 +2,15 @@
 
 
 #this bash script extracts the flag and places it in a flag.txt file
+if [ ! -f 'exploit.py' ]; then 
+	echo "ERROR: file: exploit.py: not in working directory"
 
-if [ -f 'exploit.py' ] && [ -f 'keyedup' ]; then
+elif [ ! -f 'keyedup' ] && [ ! -x 'keyedup' ]; then
+	echo "ERROR: file: keyedup: not in working directory OR no 'x' in file permissions"
 
+else
 	flag=$( python3 exploit.py | ./keyedup )
 	
 	echo "${flag}" > flag.txt
 	echo "Flag: ${flag} "
-else
-	echo "ERROR: file: keydup: not in working directory"
-	echo "ERROR: file: exploit.py: not in working directory"
 fi
